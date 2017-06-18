@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sample Collector App</string>
+    <string name="appwidget_text">Bus Ride Detector</string>
+    <string name="add_widget">Add widget</string>
+    <string name="start_communicate">Collecting service started.</string>
+    <string name="stop_communicate">Collecting service stopped.</string>
+    <string name="begin_ride_communicate">Begin ride marker inserted.</string>
+    <string name="end_ride_communicate">End ride marker inserted.</string>
+    <string name="export_database_to_external_storage">Export database to SD Card</string>
+    <string name="exporting">Exporting...</string>
+    <string name="location">Location</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="not_available">Not available.</string>
+</resources>

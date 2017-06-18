@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pl.edu.pw.samplecollectorapp.MonitorActivity">
+
+    <EditText
+        android:id="@+id/editTextAccelerationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:text="@string/acceleration"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextAcceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/walk_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="walk_buttonOnClick"
+        android:text="start walking" />
+
+    <Button
+        android:id="@+id/run_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="run_buttonOnClick"
+        android:text="start running" />
+
+    <Button
+        android:id="@+id/up_stairs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="up_buttonOnClick"
+        android:text="start walking up stairs" />
+
+    <Button
+        android:id="@+id/down_stairs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="down_buttonOnClick"
+        android:text="start walking down stairs" />
+
+    <Button
+        android:id="@+id/end_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="end_buttonOnClick"
+        android:text="end measure" />
+
+    <android.widget.Button
+        android:id="@+id/buttonExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mButtonExportOnClick"
+        android:text="@string/export_database_to_external_storage" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0" />
+
+</android.widget.LinearLayout>

@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'org.beykery:neuroph:2.92'
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.7.2'
+    testCompile 'junit:junit:4.12'
+}
