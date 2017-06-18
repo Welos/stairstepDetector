@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Napp.iml" filepath="$PROJECT_DIR$/Napp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Napp-master.iml" filepath="$PROJECT_DIR$/Napp-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/samplecollectorapp/samplecollectorapp.iml" filepath="$PROJECT_DIR$/samplecollectorapp/samplecollectorapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samplecollectorapp/samplecollectorapp.iml" filepath="$PROJECT_DIR$/samplecollectorapp/samplecollectorapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trackerlib/trackerlib.iml" filepath="$PROJECT_DIR$/trackerlib/trackerlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/trackerlib/trackerlib.iml" filepath="$PROJECT_DIR$/trackerlib/trackerlib.iml" />
     </modules>
   </component>
